@@ -130,7 +130,7 @@ footer p {
 }
 
 .cta-text a {
-  color: var(--primary-color);
+  color: #333;
   font-weight: 700;
   text-decoration: none;
 }
@@ -261,13 +261,15 @@ footer p {
 }
 
 .social-links a {
-  color: var(--white);
+  color: var(--text-color);
   text-decoration: none;
-  font-weight: 600;
-  font-size: 1.1rem;
+  margin-top: 48px;
   transition: all 0.3s ease;
   padding-bottom: 2px;
   border-bottom: 2px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-links a:hover {
