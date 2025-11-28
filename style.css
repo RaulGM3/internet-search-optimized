@@ -251,3 +251,26 @@ footer p {
   font-size: 0.8rem;
   color: #9ca3af;
 }
+
+/* Social Links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.social-links a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+
+.social-links a:hover {
+  border-bottom-color: var(--accent-color);
+  color: var(--accent-color);
+}
